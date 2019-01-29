@@ -1,0 +1,218 @@
+body {
+    background-color: #f9f9f9;
+    // background-color: #f00;
+}
+.container {
+    max-width: 1200px;
+}
+
+.layout-header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+/**/
+.layout-body {
+    padding-top: 16px;
+    min-height: 640px;
+}
+
+
+/**/
+.layout-footer {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    padding: 24px 0;
+}
+.layout-footer .info {
+    display: inline-block;
+}
+.layout-footer .copyright a {
+    color: #666;
+}
+.layout-footer .logo-box {
+    display: inline-block;
+    margin-right: 32px;
+    vertical-align: top;
+}
+.layout-footer .bdsharebuttonbox {
+    float: right;
+    /*display: inline-block;*/
+}
+.layout-footer .meta-list {
+    margin-bottom: 16px;
+}
+.layout-footer .meta-list .meta-item {
+    display: inline-block;
+    margin-right: 16px;
+}
+.layout-footer .meta-list a {
+    color: #666;
+}
+/**/
+.article-box {
+    padding: 16px;
+    margin-bottom: 24px;
+    background-color: #fff;
+}
+
+/**/
+.friend-list {
+
+}
+.friend-list .friend-item {
+    display: inline-block;
+}
+.friend-list .friend-item img {
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+}
+.friend-list .link {
+    margin-right: 16px;
+    color: #555;
+}
+/**/
+#yun-tie-sdk-wrap {
+    margin-bottom: 24px;
+}
+
+/**/
+.tool-box {
+    max-width: 480px;
+    padding: 8px;
+    margin-bottom: 24px;
+    background-color: #aecbdc;
+    border-radius: 4px;
+}
+.tool-box .tool-box-header {
+    padding: 8px;
+}
+.tool-box .tool-box-title {
+    font-size: 20px;
+}
+.tool-box .tool-box-body {
+    background-color: #fff;
+    padding: 16px;
+}
+
+.tool-box .result {}
+.tool-box .result .result-title {
+    margin: 8px 0;
+    font-weight: bold;
+}
+.tool-box .result-list {}
+.tool-box .result-list li {
+    margin-bottom: 8px;
+}
+.tool-box .result-list .strong {
+    color: #f60;
+    font-weight: bold;
+}
+
+.tool-article {
+    padding: 16px;
+    margin-bottom: 24px;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.layout-body {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+.layout-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 400px;
+    bottom: 0;
+    padding: 16px;
+}
+.layout-side {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    border-left: 1px solid #ccc;
+}
+/**/
+.mask-list {
+    height: 320px;
+    overflow: auto;
+}
+.mask-list .mask-item {
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.mask-list .mask-img {
+    width: 60px;
+    height: 60px;
+}
+/**/
+.tab-pane {
+    padding: 16px;
+}
+*[hidden] {
+    display: none;
+}
+
+.control-label {
+    text-align: left;
+}
+.btns {
+    padding: 16px;
+}
+
+.canvas-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+.canvas {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.canvas.hide {
+    display: none;
+}
+
+#html-canvas > span {
+    transition: text-shadow 1s ease, opacity 1s ease;
+    -webkit-transition: text-shadow 1s ease, opacity 1s ease;
+    -ms-transition: text-shadow 1s ease, opacity 1s ease;
+}
+
+#html-canvas > span:hover {
+    text-shadow: 0 0 10px, 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff;
+    opacity: 0.5;
+}
+
+textarea {
+    height: 20em;
+}
+#config-option {
+    font-family: monospace;
+}
+
+.file-select,
+.btn-remove {
+    margin-bottom: 16px;
+}
